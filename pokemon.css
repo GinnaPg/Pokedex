@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #D89FFF;
+    color: rgb(10, 9, 9);
+    text-align: center;
+    padding: 45px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFABE5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.row {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #C7F5FF;
+    border: 0px solid transparent;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    min-width: 110px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #F6FCAE;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}

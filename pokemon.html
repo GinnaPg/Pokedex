@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PokeDex Cute</title>
+        <script src="./pokemon.js" async defer></script>
+        <link rel="stylesheet" href="./pokemon.css">
+    </head>
+    <body>
+        <div class='container'>
+            <div class='card-container'>
+                <h1>Pokedex Cute</h1>
+            </div>
+
+            <div class="container row">
+                <label for="poke-name">Elige tu primer Pokemon (Nombre / ID)</label>
+                <input id='poke-name' type="text" name="poke-name" value="">
+            </div>
+            <div class='container row'>
+               <button id='anterior-btn' class='btn primary'>Anterior</button> 
+               <button id='tupokemon-btn' class='btn primary'>¡Yo te elijo!</button> 
+               <button id='siguiente-btn' class='btn primary'>Siguiente</button> 
+            </div>
+            <div id="card-container">
+                <div class="pokemon-card"></div>
+        </div>
+        
+    </body>
+</html>
